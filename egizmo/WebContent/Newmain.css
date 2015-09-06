@@ -1,0 +1,287 @@
+#body{
+font-family: Roboto, sans-serif;
+font-weight:400px;
+color:#f97c00;
+}
+h2,h3,h4{
+font-family: Roboto, sans-serif;
+color:#f97c00;
+}
+
+#header{
+	margin-top:0%;
+	font-family: Roboto, sans-serif;
+	color:white;
+	width:100%;
+}
+
+#logo{
+	margin-top:10px;
+	margin-left:5px;
+	float:left;
+	font-family:arial,sans-serif;
+}
+
+#header ul{
+	float:right;
+	padding:0px;
+	width: 35%;
+}
+
+#header li{
+	display:inline;
+	margin:2%;
+	text-decoration:none;
+	color:#f97c00;
+	font-weight:600px;
+}
+
+
+#footer li{
+color:#f97c00;
+	text-decoration:none;
+}
+a{
+	text-decoration:none;
+	color:#f97c00;
+	font-style:bold;
+}
+
+#itemSearch{
+  background-image: url('image/SearchIcon.png');
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: right;
+  margin-bottom: 10px;
+  margin-top: 55px;
+  margin-left: 150px;
+  line-height: 15px;
+  width: 40%;
+  text-indent: 8px;
+  height: 25px;
+}
+
+#searchButton{
+ height: 33px;
+ margin-bottom: 10px;
+ margin-top: 20px;
+}
+
+#searchButton:hover{
+	 background-color: #f97c00;
+	 color:white;
+}
+
+#Horizontal-border{
+	height:1px;
+	background-color: rgb(181, 170, 170);
+
+}
+
+
+
+@-webkit-keyframes slidy {
+0% { left: 0%; }
+20% { left: 0%; }
+25% { left: -100%; }
+45% { left: -100%; }
+50% { left: -200%; }
+70% { left: -200%; }
+75% { left: -300%; }
+95% { left: -300%; }
+100% { left: -400%;}
+}
+
+
+#slider { overflow: hidden; }
+#slider figure img { width: 20%; float: left; }
+#slider figure { 
+  position: relative;
+  width: 500%;
+  margin: 0;
+  left: 0;
+  text-align: left;
+  font-size: 0;
+   -webkit-animation: 5s slidy infinite; 
+  
+}
+#categories{
+	text-decoration:none;
+	margin:0px;
+	width:20%;
+	float:left;
+}
+#categories ul ul{
+	display:none
+}
+
+#categories ul li:hover > ul {
+		display: block;
+		list-style-type:none;
+	}
+li{
+	margin-top:15px;
+	
+}
+
+	
+
+
+#vertical-line{
+	width:2px;
+	background-color:black;
+	height:50%;
+}
+
+#homesection{
+	
+	margin-left:25%;
+	
+}
+#1row1col{
+	margin-top:40px;
+	float:left;
+}
+#1row2col{
+	
+	float:left;
+}
+#2row1col{
+
+	float:left;
+}
+
+#2row2col{
+margin-top:80px;
+	float:left;
+}
+
+#dividerline{
+	width: 1px;
+  background-color: rgb(194, 188, 188);
+  height: 200px;
+  float: left;
+  margin-top: 60px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+#horizontalBorderFooter{
+height: 1px;
+  background-color: rgb(181, 170, 170);
+  margin-top:30px;
+  
+}
+#footer{
+font-style:bold;
+}
+
+#footerlogo{
+margin-top:10px;
+margin-left:5px;
+float:left;
+font-family:Roboto,sans-serif;
+}
+
+#services ul ,li{
+	list-style-type:none;
+	color:#f97c00;
+	font-family:Roboto,sans-serif;
+}
+#Policies ul, li{
+list-style-type:none;	
+font-family:Roboto,sans-serif;
+color:#f97c00;
+}
+
+#AboutUs ul, li{
+	list-style-type:none;
+	font-family:Roboto,sans-serif;
+	color:#f97c00;
+}
+
+#services{
+	margin-left:100px;
+float:left;
+text-decoration:none;
+color:black;
+}
+
+#Policies{
+margin-left:200px;
+float:left;
+text-decoration:none;
+}
+
+#AboutUs{
+	margin-left:200px;
+float:left;
+text-decoration:none;
+}
+
+/*registration page*/
+#headerRegister{
+	margin-top:0%;
+	font-family: Roboto, sans-serif;
+	color:white;
+	width:100%;
+	
+}
+
+#headerRegister logo{
+	margin-top:10px;
+	margin-left:5px;
+	float:left;
+	font-family:arial,sans-serif;
+}
+
+#headerRegister ul{
+	float:right;
+	padding:0px;
+	width: 35%;
+}
+
+#headerRegister li{
+	display:inline;
+	margin:2%;
+	text-decoration:none;
+	color:#f97c00;
+	font-weight:600px;
+}
+
+#horizBorder{
+	margin-top:20px;
+	height:1px;
+    width:100%;
+}
+td{
+  padding-right: 20px;
+  padding-bottom: 10px;
+  font-family: Roboto,sans-serif;
+}
+#createAccount{
+	background:#f97c00;
+}
+#reset{
+	background:#f97c00;
+}
+form{
+	margin-left:25%;
+	margin-right:25%;
+	margin-top:10%;
+	
+}
+
+legend{
+	padding-bottom:20px;
+	
+}
+
+#iph6{
+	float:left;
+}
+#divideBorder{
+	width:1px;
+	height:200px;
+	color:black;
+}
